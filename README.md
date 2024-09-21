@@ -38,11 +38,38 @@ This starter is compatible with versions >= 1.8.0 of `@wizardsjs/wizards`.
 
 ## Getting Started
 
-The database `wizards_starter_default` has been successfully created with `wizards_user` as the owner. The next steps involve developing the following features:
-- Implement a sign-up and login system
-- Create a purchase history page where users can see all their purchased items
-- Develop an admin panel for product management
-- Implement a promo code feature in the admin panel
+### Prerequisites
+- Node.js and npm installed
+- MongoDB setup
+
+### Installation
+1. Clone the repository:
+   ```
+   git clone https://github.com/mihf05/wizards-shop.git
+   ```
+2. Navigate to the project directory:
+   ```
+   cd wizards-shop
+   ```
+3. Install dependencies:
+   ```
+   npm install
+   ```
+
+### Running the Project
+1. Start the development server:
+   ```
+   npm run dev
+   ```
+
+### Building the Project
+1. Build the project for production:
+   ```
+   npm run build
+   ```
+
+### Deployment
+1. Deploy the project using Netlify or Vercel.
 
 Visit the [Quickstart Guide](https://docs.wizardsjs.com/create-wizards-app) to set up a server. Visit the [Docs](https://docs.wizardsjs.com/development/backend/prepare-environment) to learn more about our system requirements.
 
