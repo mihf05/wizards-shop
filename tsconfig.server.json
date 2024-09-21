@@ -2,7 +2,8 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     /* Emit a single file with source maps instead of having a separate file. */
-    "inlineSourceMap": true
+    "inlineSourceMap": true,
+    "outDir": "./dist"
   },
   "exclude": ["src/admin", "**/*.spec.js"]
 }

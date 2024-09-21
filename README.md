@@ -38,7 +38,7 @@ This starter is compatible with versions >= 1.8.0 of `@wizardsjs/wizards`.
 
 ## Getting Started
 
-The database `medusa_starter_default` has been successfully created with `medusa_user` as the owner. The next steps involve developing the following features:
+The database `wizards_starter_default` has been successfully created with `wizards_user` as the owner. The next steps involve developing the following features:
 - Implement a sign-up and login system
 - Create a purchase history page where users can see all their purchased items
 - Develop an admin panel for product management

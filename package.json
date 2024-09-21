@@ -2,19 +2,18 @@
   "name": "wizards-starter-default",
   "version": "0.0.1",
   "description": "A starter for Wizards projects.",
-  "author": "Medusa (https://medusajs.com)",
+  "author": "Wizards (https://wizardsjs.com)",
   "license": "MIT",
   "keywords": [
     "sqlite",
     "postgres",
     "typescript",
     "ecommerce",
-    "headless",
-    "medusa"
+    "headless"
   ],
   "scripts": {
     "clean": "cross-env ./node_modules/.bin/rimraf dist",
-    "build": "cross-env npm run clean && npm run build:server && npm run build:admin",
+    "build": "cross-env npm run clean && npm run build:server && npm run build:admin && mv dist/* build/",
     "build:server": "cross-env npm run clean && tsc -p tsconfig.server.json",
     "build:admin": "cross-env medusa-admin build",
     "watch": "cross-env tsc --watch",
